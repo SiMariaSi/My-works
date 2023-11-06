@@ -1,0 +1,283 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("проект_2.png");
+    border-color: #000;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color:beige;
+    height: 100%;
+
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+
+    flex-grow: 1;
+}
+
+.footer-title {
+    position: relative;
+    height: 45px;
+    color:  rgb(21, 19, 29) ;
+    text-align: center;
+    padding: 4px;
+    background-color: rgb(21, 19, 29) ;
+
+}
+
+
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.Top_menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover {
+    color: #db2c1f;
+}
+
+
+.Logo h1{
+    vertical-align: middle;
+}
+
+.container-video {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 150px;
+
+}
+
+
+.video iframe {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+
+
+
+.submenu{
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+   width: 180px;
+}
+
+
+.information-us{
+    margin-top: 173px;
+    background-color: #18181d;
+
+}
+
+.opisanie {
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+}
+
+.about-us{
+    width: 100%;
+    margin: 10px auto;
+    background: rgb(51, 50, 50, 0.95);
+    color: rgb(231, 200, 126);
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.footer-title{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+    
+    padding: 40px 40px 40px 40px;
+    background-color: rgb(51, 50, 50, 0.95);
+    border: 2px solid #000000;
+    
+
+}
+
+.footer-bg{
+    background-color: #18181d;
+    width: 100%;
+    height: 100%;
+    margin-top: 600px;
+
+}
+
+.footer-title a{
+   
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: beige;
+        text-decoration: none;
+        vertical-align: middle;
+    
+}
+
+.footer-title p{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: beige;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+
+
+.coa{
+    margin-top: 173px;
+    background-color: #18181d;
+
+}
+
+.opisanie {
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(51, 50, 50, 0.95);
+    color:   rgb(186, 172, 139) ;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+}
+
+.coa-us{
+    width: 100%;
+    margin: 10px auto;
+    background: rgb(51, 50, 50, 0.95);
+    color:  rgb(231, 200, 126);
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+    text-transform: uppercase;
+    
+    
+
+}
+
+.probel{
+    background: #18181d;
+    height: 30px;
+
+}
+
+.foot{
+    background: #18181d;
+    height: 30px;
+    width: 100%;
+
+}
+
+.cvet{
+    color: beige;
+}
+
+.cvet1{
+    color: beige;
+}
+
+.help{
+    width: 100%;
+margin: 10px auto;
+background: rgb(51, 50, 50, 0.95);
+color:  rgb(231, 200, 126);
+padding: 15px;
+text-align: center;
+font-size: 40px;
+font-family: 'Vollkorn', serif;
+text-transform: uppercase;
+}
+
+.opisanie-1 {
+    width: 80%;
+    margin: 10px auto;
+    background: rgba(51, 50, 50, 0.95);
+    color:   rgb(186, 172, 139) ;
+    padding: 15px;
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 18px;
+    text-transform: none;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.opisanie-1 a{
+    text-decoration: none;
+    color:   rgb(133, 107, 46) ;
+}
+
+.opisanie-1 a:hover{
+    
+    color:   rgb(184, 84, 22) ;
+}
