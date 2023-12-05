@@ -1,5 +1,7 @@
 # My-works
 
+https://simariasi.github.io/01_ADAPTIV/ - КР-2 
+
 https://simariasi.github.io/My-works/
 
 https://simariasi.github.io/Algoritm/ - паспорт(сам изменяет)
